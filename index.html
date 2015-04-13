@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>PolyChromaddict</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <script src="jquery-1.11.2.min.js"></script>
+    <script src="KolorWheel.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="mainContainer">
+        <div id="logo">
+
+        </div>
+        <div id="content">
+            <div id="image">
+                <div id="imageFormContainer">
+                    <form id="imageForm" action="uploadImage.php" method="POST">
+                        <input id="imageUpload" type="file" name="photos">
+                        <button id="submit" class="upload" value="Upload Image">Upload Image</button>
+                    </form>
+                </div>
+                <div id="canvasContainer">
+                    <canvas id="imageCanvas" width="630" height="300">
+                        Your browser does not support this app! Try downloading Chrome.
+                    </canvas>
+                </div>
+                <div id="pickedColor"></div>
+                <div id="hoverColor"></div>
+                <div id="colorPickerText">Click to pick your color</div>
+                <div style="clear: both"></div>
+            </div>
+            <div id="palettes">
+                <h1>Palettes</h1>
+                <h2>Triad</h2>
+                <div id="trio1" class="color"></div>
+                <div id="trio2" class="color" ></div>
+                <div id="trio3" class="color" ></div>
+                <div style="clear: both" class="separator"></div>
+
+                <h2>Complementary</h2>
+                <div id="tetrad1" class="color"></div>
+                <div id="tetrad2" class="color" ></div>
+                <div id="tetrad3" class="color" ></div>
+                <div id="tetrad4" class="color" ></div>
+                <div style="clear: both" class="separator"></div>
+
+                <h2>Pastel</h2>
+                <div id="pastel2" class="color" ></div>
+                <div id="pastel3" class="color" ></div>
+                <div id="pastel4" class="color" ></div>
+                <div id="pastel5" class="color" ></div>
+                <div style="clear: both" class="separator"></div>
+
+                <h2>Gradient</h2>
+                <div id="grad1" class="color" ></div>
+                <div id="grad2" class="color" ></div>
+                <div id="grad3" class="color" ></div>
+                <div id="grad4" class="color" ></div>
+                <div id="grad5" class="color" ></div>
+                <div id="grad6" class="color" ></div>
+                <div style="clear: both" class="separator"></div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        (c) Somalia Jamall - 2015
+    </div>
+
+</body>
+</html>

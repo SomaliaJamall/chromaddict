@@ -1,0 +1,111 @@
+@font-face {
+    font-family: Aller;
+    src: url('Aller_Rg.ttf');
+}
+
+body{
+    font-family:'Aller', Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin-bottom: 0px;
+}
+
+#mainContainer{
+    width:763px;
+    margin:0 auto;
+    padding:30px 50px 50px 50px;
+    background-color: #ffffff;
+    height:100%;
+}
+
+#logo{
+    width:100%;
+    height:106px;
+    background-image: url("logo.png");
+    background-position: center;
+    margin: 0 0 30px 0;
+}
+
+.color{
+    float:left;
+    height:75px;
+    width:75px;
+}
+
+.separator{
+    margin:0 0 30px 0;
+}
+
+#image{
+
+}
+
+#canvasContainer{
+    min-width:630px;
+    min-height:400px;
+    float:left;
+}
+
+#imageCanvas{
+    border-color: black;
+    border-width:3px;
+    border-style: solid;
+    margin:40px 0;
+}
+#hoverColor {
+    height: 103px;
+    width: 103px;
+    float:right;
+    margin-top:20px;
+}
+
+#pickedColor {
+    height: 100px;
+    width: 100px;
+    float:right;
+    margin-top:40px;
+    border-color: #000000;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#colorPickerText{
+    height: 100px;
+    width: 100px;
+    float:right;
+    margin-top:40px;
+    border-color: #ffffff;
+    border-width: 3px;
+    border-style: solid;
+
+}
+
+#palettes{
+    min-height: 500px;
+}
+
+button{
+    font-family: 'Aller', Arial, Helvetica, sans-serif;
+    color: #000;
+    border       : 2px solid #333;
+    border-radius: 0;
+    background   : none;
+    cursor: pointer;
+    /*position: relative;
+    left: 155px;*/
+}
+
+#imageFormContainer{
+    width: 350px;
+    margin: 0 auto;
+}
+
+#footer{
+    width:100%;
+    background-color: #ffffff;
+    padding:20px 100px;
+}
